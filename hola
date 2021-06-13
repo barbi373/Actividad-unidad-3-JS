@@ -1,0 +1,33 @@
+var numeroa = 10//(3)
+var numerob = 15
+
+function sumarDosNumeros(x){//(4)
+    var sumar = x
+    return sumar //(1)
+}
+sumarDosNumeros(numeroa)//(2)
+//entonces va a abajo, va a numeroa, reemplaza
+
+var numeroa = 10//(3)
+var numerob = 15
+
+function sumarDosNumeros(x){//(4)
+    var sumar = x
+    return sumar //(1)
+}
+var guardarValorFuncion = sumarDosNumeros(numeroa)//(2)
+console.log(guardarValorFuncion)
+//y finalmente lo guarda en la variable y lo imprime x consola
+
+var numeroa = 10//(3)
+var numerob = 15
+
+function sumarDosNumeros(x){//(4)
+    var sumar = x
+    console.log('tirando liea de funcion con retorno')
+    return sumar //(1)
+}
+var guardarValorFuncion = sumarDosNumeros(numeroa)//(2)
+console.log(guardarValorFuncion)
+//cdo trabajamos con una funcion queremos
+//que almacene algo en el return
